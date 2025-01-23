@@ -46,7 +46,7 @@ This is a Flask-based REST API for predicting machine downtime based on maintena
 
 4. Run the Flask app:
    ```bash
-   python app.py
+   python3 app.py
    ```
 
 The app will be running on `http://127.0.0.1:5000` by default.
@@ -133,7 +133,4 @@ The app will be running on `http://127.0.0.1:5000` by default.
 2. Train the model before using the `/predict` endpoint.
 3. The application saves uploaded files in the `data/` directory and trained models in the `models/` directory.
 
----
-
-Feel free to reach out for any questions or improvements!
 
